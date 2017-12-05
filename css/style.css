@@ -1,0 +1,224 @@
+header{
+  background-color: rgb(135, 183, 218);
+  display: block;
+  border: 2px solid rgb(57, 117, 161);
+  width: 100%;
+  height: 140px;
+  }
+
+.logo1{
+  z-index: 2;
+  width: 650px;
+  height: 150px;
+  float: left;
+  margin-top: 1px;
+}
+.inline li{
+  display: inline;
+  float: right;
+  position: right;
+  margin-right: 40px;
+  text-transform: capitalize;
+
+}
+.list{
+    float: top, center; /* Le menu flottera à gauche */
+    width: 156x100px; /* Très important : donner une taille au menu */
+}
+  /*position:fixed;*/
+body{
+  /*margin: 20px;*/
+
+
+}
+.backgroundphoto{
+  width: 120%;
+  
+
+
+}
+
+#lilas{
+  position: absolute;
+  z-index: 1;
+  height: 300px;
+  width: 100%;
+  background-color: rgba(227, 126, 202, 0.64);
+  border-color: #996
+}
+#bloc1{
+  z-index: 3;
+  top:700px;
+  left:45px;
+  background-position: center;
+  position: relative;
+  height: 420px;
+  width: 650px;
+  background-color: rgb(135, 183, 218);
+  /*border-color: black;*/
+  opacity: 0.7;
+  border: pink solid 4px;
+}
+h1{
+  text-align: center;
+}
+.texte{
+  text-align: justify;
+}
+a.button{
+		background:white;
+		display:block;
+		color:#555555;
+		font-weight:bold;
+		height:30px;
+		line-height:29px;
+		margin-bottom:14px;
+		text-decoration:none;
+    text-align: center;
+		width:191px;
+    border-radius: 15px;
+
+	}
+	a:hover.button{
+		color:#0066CC;
+								}
+
+.bouton1{
+  background-size: contain;
+  position: relative;
+  left: 20px;
+}
+
+/*séparation du bloc header et du bloc production*/
+
+
+
+#bloc2{
+  position: relative;
+  z-index: 3;
+  top:800px;
+  height: 460px;
+  display: block;
+  width: 100%;
+  border: pink solid 4px;
+  background-size: auto;
+  background-color: rgb(126, 160, 230);
+  padding-left: 40px;
+
+
+
+}
+h2{
+  /*text-align: right;*/
+}
+.titres2{
+  text-align: right;
+  font-size: small;
+}
+
+.cadrephoto{
+  z-index: 4;
+  background-size: cover;
+  background-color: rgb(30, 72, 212);
+  padding: 5px 5px 5px 5px;
+  float: left;
+  width: 250px;
+  height: 270px;
+  border-color: blue solid 10px;
+  margin-left: 15px;
+  margin-top: 30px;
+
+}
+.prix{
+ text-align: right;
+
+
+}
+.photo{
+  margin-left: 25px;
+  margin-top: 10px;
+  height: 200px;
+  width: 200px;
+}
+.tphoto{
+  text-transform: capitalize;
+  color: white;
+}
+.tleft{
+  float: left;
+}
+.pright{
+  float: right;
+}
+.blocprix{
+  border: 1px solid black;
+  padding: 3px;
+  background: white;
+}
+/*}
+.inline2 li{
+  display: inline;
+  float: right;
+  position: right;
+  margin-right: 40px;
+  text-transform: capitalize;
+}
+.list2{
+    float: center; /* Le menu flottera à gauche */
+    width: x100px; /* Très important : donner une taille au menu */
+
+
+
+
+
+
+
+/*strong {
+  font-family: sans-serif;
+}
+
+div {
+  padding: 10px;
+  border: 1px dashed;
+  text-align: center;
+}
+
+.static {
+  position: static;
+  height: 80px;
+  background-color: #ffc;
+  border-color: #996;
+}
+
+.absolute {
+  position: absolute;
+  width: 150px;
+  height: 350px;
+  background-color: #fdd;
+  border-color: #900;
+  opacity: 0.7;
+}
+
+.relative {
+  position: relative;
+  height: 80px;
+  background-color: #cfc;
+  border-color: #696;
+  opacity: 0.7;
+}
+
+#abs1 {
+  top: 10px;
+  left: 10px;
+}
+
+#rel1 {
+  top: 30px;
+  margin: 0px 50px 0px 50px;
+}
+
+#rel2 {
+  top: 15px;
+  left: 20px;
+  margin: 0px 50px 0px 50px;
+}*/
