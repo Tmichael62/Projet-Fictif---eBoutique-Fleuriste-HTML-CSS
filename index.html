@@ -35,7 +35,7 @@ Petit conseil avant de découvrir nos idées : soyez brefs ! La carte est petite
             <div class="bouton1"><!--bouton du catalogue des produits position en dessus du descriptif-->
              <a href="#" class="buttonhaut"><span>Notre Catalogue</span></a>
               </div>
-
+              <div class="clear"></div>
         </div>
 
 
@@ -80,7 +80,9 @@ Petit conseil avant de découvrir nos idées : soyez brefs ! La carte est petite
          <div class="">
            <a href="#"><img src="img/garden.jpg" alt="garden" class="fondjardin"></a>
          </div>
+<div class="clear">
 
+</div>
       </section>
         <div id="bloc3">
 
@@ -102,27 +104,42 @@ Seulement il n'est pas facile de choisir ses mots, surtout quand le message doit
             <a href="#" class="social"><img src="img/mail2.png" alt="social"><div class="fond_mail"></div></a>
 
           </div>
-        </div>-->
+        </div>
+        <div class="clear">
 
+        </div>
        <!--<div id="formulaire">-->
 
 
 
-      <section id="form">
-        <h2>Formulaire Contact</h2>
-         <form action="traitement.php" method="post">
 
-           <label for="nom">Nom :</label>
-           <input type="text" id="nom"><br>
-           <label for="courriel">Courriel :</label>
-           <input type="email" id="courriel"><br>
-           <label for="message">Message :</label>
-          <textarea id="message"></textarea><br><br>
-        <div class="button">
-          <button type="submit">Envoyer votre message</button>
-        </div>
-      </section>
-</form>
+      <!--fieldset class="cadreform"-->
+        <section id="form">
+          <form class="formulaire" action="index.html" method="post">
+           <div class="interform">
+             <p>
+              <label for="nom">Nom :</label>
+              <input type="text" id="nom">
+            </p>
+            <p>
+             <label for="courriel">Courriel :</label>
+             <input type="email" id="courriel">
+           </p>
+            <p>
+             <label for="message">Message :</label>
+             <textarea id="message" rows="10"></textarea>
+           </p>
+            <p>
+             <input type="submit" value="envoyer" id="envoyer"></input>
+           </p>
+           </div>
+           </form>
+           <div class="clear"></div>
+         </section>
+
+        <!--/fieldset-->
+
+
 
 
     <footer>
