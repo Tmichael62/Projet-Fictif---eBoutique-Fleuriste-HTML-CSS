@@ -1,15 +1,12 @@
 header{
-  background-color: #BDB76B;
+  background-image: linear-gradient(#d0e457, #e6dd10);
   display: block;
   border: 2px solid black;
   border-top: 4px solid pink;
   border-bottom: 4px solid pink;
-  width: 1295px;
+  width: 1275px;
   height: 100px;
-
-
   }
-
 .logo1{
   z-index: 2;
   width: 370px;
@@ -23,7 +20,6 @@ header{
   position: right;
   margin-right: 40px;
   text-transform: capitalize;
-
 }
 .clear{
   clear: both;
@@ -32,22 +28,28 @@ header{
     float: top, center; /* Le menu flottera à gauche */
     width: 156x100px; /* Très important : donner une taille au menu */
 }
-
+h1{
+  text-align: center;
+}
 .backgroundphoto{
+  }
+#lilas{
+  position: absolute;
+  background-attachment: fixed;
+  z-index: 1;
+  background-image: url("../img/flower4.jpg");
+  width: 1275px;
+  height: 800px;
+  margin-top: 10Px;
   border-left: 2px solid black;
   border-right: 2px solid black;
   border-top: 4px solid pink;
   border-bottom: 4px solid pink;
-  width: 1275px;
-  margin-top: 10Px;
 }
-#lilas{
-  position: absolute;
-  z-index: 1;
-}
+
 #bloc1{ /*bloc avec description au dessus de l'image*/
   z-index: 3;
-  top:385px;
+  top:335px;
   left:45px;
   background-position: center;
   position: relative;
@@ -59,9 +61,7 @@ header{
   padding-right: 20px;
   padding-left: 20px;
 }
-h1{
-  text-align: center;
-}
+
 .texte{
   text-align: justify;
   text-align-last: left;
@@ -89,29 +89,31 @@ a.buttonhaut{
 }
 
 /*séparation du bloc header et du bloc production*/
+
+/*section de présentation des produits*/
 /*section des produits*/
 #bloc2{
   position: relative;
   z-index: 3;
-  top:450px;
-  height: 480px;
+  top:400px;
+  height: 440px;
   width: 1275px;
   border-color: white;
   border-top: pink solid 4px;
   border-bottom: pink solid 4px;
   border-left: 2px solid black;
   border-right: 2px solid black;
-  float: none;
-  background-color:#BDB76B;
+  /*background-color:#BDB76B;*/
+  background-image: linear-gradient(#d0e457, #e6dd10);
+
 
 }
 .titres2{
   text-align: right;
   font-size: small;
-  margin-right: 35px;
+    margin-right: 35px; 
   padding-top: 10px;
   padding-right: 10px;
-
 }
 .cadrephoto{
   z-index: 4;
@@ -147,7 +149,6 @@ a.buttonhaut{
 }
 .pright{
   float: right;
-
 }
 .clear{
   clear: both;
@@ -157,25 +158,15 @@ a.buttonhaut{
   padding: 3px;
   background: white;
 }
+
+
 /*fin de la section de prsentation produit*/
 /*debut de la section explication boutique*/
-
-.fondjardin{
-  border-left: 2px solid black;
-  border-right: 2px solid black;
-  border-top: 3px solid pink;
-  border-bottom: 3px solid pink;
-  width: 1275px;
-  margin-top: 460px;
-  filter: blur(2px);
-}
-
-
 
 #bloc3{
   z-index: 1;
   bottom: 500px;
-  left: 545px;
+  left: 540px;
   background-position: center;
   position: relative;
   height: 420px;
@@ -193,8 +184,18 @@ a.buttonhaut{
 .clear{
   clear: both;
 }
+.boutique{/*fond de l'image de présentation de site*/
+  background-image: url(../img/garden.jpg);
+  height: 900px;
+  border-left: 2px solid black;
+  border-right: 2px solid black;
+  border-top: 3px solid pink;
+  border-bottom: 3px solid pink;
+  width: 1275px;
+  margin-top: 410px;
+  filter: blur(2px);
+}
 .bloc3{
-
   text-align: justify;
   text-align-last: right;
   padding-left: 20px;
@@ -209,10 +210,7 @@ a.buttonhaut{
   z-index: 2;
   color: white;
 }
-
-
 /*element qui composent les boutons icone liens vers reseaux sociaux et le mail*/
-
 .social{
   background-color: rgba(0,0,0,0,2);
   width: 40px;
@@ -237,7 +235,6 @@ a.buttonhaut{
   justify-content: center;
   align-items: center;
   top:100px;
-
 }
 .fond_twi, .fond_face, .fond_insta, .fond_mail{
   display: block;
@@ -247,7 +244,6 @@ a.buttonhaut{
   z-index: 1;
   top: -40px;
   transition: 0,5s;
-
 }
 .social:hover, .fond_twi, .fond_face, .fond_insta, .fond_mail{
   width: 50px;
@@ -264,72 +260,35 @@ a.buttonhaut{
 .fond_mail{
   background-color: rgb(237, 231, 200);
 }
-
 /*fin des icones reseaux sociaux*/
+
+
 /*debut du formulaire de contact*/
 
-
-/*body{
-  background-size: contain 16px;
-  font-family: verdana sans-serif;
-  color: #333;
-}
-.content{
-margin: 0;
-padding: 0;
-
-}
-#form{
-  background-color:rgba(170,200,40,0,6);
-
-  margin: 0 auto;
-  border: 1px solid #CCC;
-  height: 400px;
-
-
-}
-/*.cadreform{
-  width: 390px;
-  height: 420px;
-  background-color: rgba(194, 208, 29, 0.72);
-  vertical-align: top;*/
-
-
-
-
-
-/*.formulaire{
-  width: 390px;
-  height: 420px;
-  background-color: rgba(194, 208, 29, 0.72);
-  /*vertical-align: top;*/
-  /*margin: 20px auto;
-  padding: 10px;*/
-
-
   /*formulaire d'envoye*/
-  .formulaire{
+.formulaire{
     border: 2px solid lightgreen;
-    background-color: yellow;
-    height: 500px;
-    width: 850px;
+    background-color:rgb(109, 66, 210);
+    height: 460px;
+    width: 400px;
     margin: 10px auto;
     padding: 10px;
-
-  }
-  #nom, #courriel{
+    position: relative;
+    opacity: 0.9;
+}
+#nom, #courriel{
     border: 1px solid black;
     padding: 10px;
     width: 100%;
-  }
-  #message{
+}
+#message{
     font-size: 1em;
     border: 1px solid black;
     padding: 10px;
     width: 100%;
     margin: 0 auto;
-  }
-  #envoyer{
+}
+#envoyer{
     float: right;
     margin: 0px 0px 0px 40px;
 }
@@ -337,93 +296,34 @@ padding: 0;
   clear: both;
 }
 .interform{
-  height: 500px;
+  height: 450px;
   width: 250px;
   margin: 1px auto;
+  padding-right: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   vertical-align: middle;
+  position: absolute;
+  top: 15px;
+  left: 75px;
 }
-
 body{
   overflow-x: hidden;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*form div+div{
-  margin-top: 1em;
-
 
 }
-label{
-  display: inline-block;
-  width: 90px;
-  text-align: right;
-}
-input textarea{
-  font: 1em sans-serif;
-  width: 300px;
-  box-sizing: border-box;
-  border: 1px solid #999;
-}
-input:focus, textarea:focus {
-    border-color: #000;
-}
-textarea {
-    vertical-align: top;
-    height: 5em;
-    resize: vertical;
-    width: 400px;
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid black;
+  height: 50px;
+  background-image: linear-gradient(#d0e457, #e6dd10);
 
 }
-.button {
-    padding-left: 90px;
+.micone img{
+  height: 40px;
+  width: 40px;
+  position: relative;
 }
-button {
-    margin-left: .5em;
-}
-form{
-
-}*/
-
-
-
-
-
-
-
-
-
-
-/*footer{
-        background: #998B7D;
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        height: 50px;
-        margin-top: 50px;
-      }*/

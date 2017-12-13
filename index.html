@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="css/style.css">
     <title></title>
   </head>
-  <body style="background-color:#E6E6FA">
+  <body style="background-image:linear-gradient(#f78711, #eb5c0c)">
 
      <header><!--section pour l'entête du site avec logo du magasin et barre de navigation-->
        <div>
@@ -21,8 +21,9 @@
            </nav>
       </header>
 <!--section pour la présentation du fleuriste-->
-     <section id="lilas"><!--background image home-->
-        <a href="#"><img src="img/flower4.jpg" alt="lilas" class="backgroundphoto"></a>
+     <section id="home" >
+       <div id="lilas"></div><!--background image home-->
+        <!--<a href="#"><img src="img/flower4.jpg" alt="lilas" class="backgroundphoto"></a>-->
       </section>
         <div id="bloc1"><!--bloc séparé du descriptif fleuriste position au dessus de l'image lilas-->
           <h1>Rose Prévost, La fleuriste Boulonnaise</h1>
@@ -33,13 +34,13 @@ Vous trouverez ici toute l'inspiration nécessaire. Que cela soit un bouquet amo
 Petit conseil avant de découvrir nos idées : soyez brefs ! La carte est petite et le plus important restant les fleurs, il convient d'exprimer votre pensée en une seule et unique phrase !</p>
 
             <div class="bouton1"><!--bouton du catalogue des produits position en dessus du descriptif-->
-             <a href="#" class="buttonhaut"><span>Notre Catalogue</span></a>
+             <a href="#produit" class="buttonhaut"><span>Notre Catalogue</span></a>
               </div>
               <div class="clear"></div>
         </div>
 
 
-       <section><!--section pour les produits-->
+       <section id="produit"><!--section pour les produits-->
         <div id="bloc2">
           <div class="titres2"><h2>Nous vous proposons...</h2></div>
 <!--chaque photo position dans une div séparé-->
@@ -76,77 +77,62 @@ Petit conseil avant de découvrir nos idées : soyez brefs ! La carte est petite
             </div>
         </div>
       </section>
-      <section><!--section du store-->
-         <div class="">
-           <a href="#"><img src="img/garden.jpg" alt="garden" class="fondjardin"></a>
+      <section id="boutique"><!--section du store-->
+         <div class="boutique">
+           <!--<a href="#"><img src="img/garden.jpg" alt="garden" class="fondjardin"></a>-->
          </div>
 <div class="clear">
 
 </div>
-      </section>
-        <div id="bloc3">
-
-
-          </div>
+  </section><!--section notre boutique avec presentation-->
+        <div id="bloc3"></div>
           <div class="bloc3">
+            <h2 class="notreboutique">Notre boutique...</h2>
+            <br>
+            <p>Rien ne vaut un joli bouquet de fleurs pour faire plaisir. Et si celui-ci est accompagné d'un mot bien écrit, original et approprié la personne ne pourra être que comblée. Plusieurs occasions s'offrent à vous pour offrir un bouquet de fleurs accompagné d'une carte: souhaiter bonne fête des mères, souhaiter bonne fête des grands-mères, souhaiter bonne chance, souhaiter bonne fête, souhaiter un bon rétablissement, souhaiter un bon départ à la retraite.
+Seulement il n'est pas facile de choisir ses mots, surtout quand le message doit être court. Nous mettons donc à votre disposition des messages courts et des citations pour chacune de ces occasions. Vous pourrez ainsi vous en inspirer et trouver votre bonheur !</p>
+                <div class=conteneur>
+                  <a href="https://twitter.com/" class="social"><img src="img/twitter.png" alt="social"><div class="fond_twi"></div></a>
+                  <a href="https://fr-fr.facebook.com/" class="social"><img src="img/facebook.png" alt="social"><div class="fond_face"></div></a>
+                  <a href="https://www.instagram.com/?hl=fr" class="social"><img src="img/instagram.png" alt="social"><div class="fond_insta"></div></a>
+                  <a href="mailto:rose-prevost@fleuriste-boulogne.fr" class="social"><img src="img/mail2.png" alt="social"><div class="fond_mail"></div></a>
+                </div>
+            </div>
+        <!--<div class="clear"> -->
+        <!--formulaire de contact-->
+        <section id="contact" id="form">
 
-
-          <h2 class="notreboutique">Notre boutique...</h2>
-<br>
-          <p>Rien ne vaut un joli bouquet de fleurs pour faire plaisir. Et si celui-ci est accompagné d'un mot bien écrit, original et approprié la personne ne pourra être que comblée. Plusieurs occasions s'offrent à vous pour offrir un bouquet de fleurs accompagné d'une carte: souhaiter bonne fête des mères, souhaiter bonne fête des grands-mères, souhaiter bonne chance, souhaiter bonne fête, souhaiter un bon rétablissement, souhaiter un bon départ à la retraite.
-Seulement il n'est pas facile de choisir ses mots, surtout quand le message doit être court. Nous mettons donc à votre disposition des messages courts et des citations pour chacune de ces occasions. Vous pourrez ainsi vous en inspirer et trouver votre bonheur !
-          </p>
-
-          <div class=conteneur>
-            <a href="#" class="social"><img src="img/twitter.png" alt="social"><div class="fond_twi"></div></a>
-            <a href="#" class="social"><img src="img/facebook.png" alt="social"><div class="fond_face"></div></a>
-            <a href="#" class="social"><img src="img/instagram.png" alt="social"><div class="fond_insta"></div></a>
-            <a href="#" class="social"><img src="img/mail2.png" alt="social"><div class="fond_mail"></div></a>
-
-          </div>
-        </div>
-        <div class="clear">
-
-        </div>
-       <!--<div id="formulaire">-->
-
-
-
-
-      <!--fieldset class="cadreform"-->
-        <section id="form">
-          <form class="formulaire" action="index.html" method="post">
-           <div class="interform">
-             <p>
-              <label for="nom">Nom :</label>
-              <input type="text" id="nom">
-            </p>
-            <p>
-             <label for="courriel">Courriel :</label>
-             <input type="email" id="courriel">
-           </p>
-            <p>
-             <label for="message">Message :</label>
-             <textarea id="message" rows="10"></textarea>
-           </p>
-            <p>
-             <input type="submit" value="envoyer" id="envoyer"></input>
-           </p>
-           </div>
-           </form>
-           <div class="clear"></div>
-         </section>
-
-        <!--/fieldset-->
-
-
-
-
+            <form class="formulaire" action="index.html" method="post">
+              <div class="interform">
+                <p>
+                  <label for="nom">Nom :</label>
+                  <input type="text" id="nom"/>
+                </p>
+                <p>
+                  <label for="courriel">Courriel :</label>
+                  <input type="email" id="courriel"/>
+                </p>
+                <p>
+                  <label for="message">Message :</label>
+                  <textarea id="message" rows="10"></textarea>
+                </p>
+                <p>
+                  <input type="submit" value="envoyer" id="envoyer"/>
+                </p>
+              </div>
+            </form>
+          <div class="clear"></div>
+        </section>
+      <br>
+<!--dernière section du site-->
     <footer>
-
+      <p> copyright &copy; 2017 <span>THOMAS Michael</span> </p>
+      <p class="micone">
+        <a href="https://twitter.com/"><img src="img/twitter.png" alt="social"></a>
+        <a href="https://fr-fr.facebook.com/"><img src="img/facebook.png" alt="social"></a>
+        <a href="https://www.instagram.com/?hl=fr"><img src="img/instagram.png" alt="social"></a>
+        <a href="mailto:rose-prevost@fleuriste-boulogne.fr"><img src="img/mail2.png" alt="social"></a>
+      </p>
     </footer>
-
-
-
   </body>
 </html>
