@@ -1,3 +1,7 @@
+html{
+  font-family: sans-serif;
+}
+
 header{
   background-image: linear-gradient(#d0e457, #e6dd10);
   display: block;
@@ -31,8 +35,6 @@ header{
 h1{
   text-align: center;
 }
-.backgroundphoto{
-  }
 #lilas{
   position: absolute;
   background-attachment: fixed;
@@ -61,7 +63,12 @@ h1{
   padding-right: 20px;
   padding-left: 20px;
 }
-
+@font-face {
+  font-family: bkobiii, sans-serif;
+  src: url("/font/bkobiii.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 .texte{
   text-align: justify;
   text-align-last: left;
@@ -78,8 +85,8 @@ a.buttonhaut{
     text-align: center;
 		width:191px;
 
-	}
-	a:hover.buttonhaut{
+}
+a:hover.buttonhaut{
 		color:#0066CC;
 								}
 .bouton1{
@@ -103,7 +110,6 @@ a.buttonhaut{
   border-bottom: pink solid 4px;
   border-left: 2px solid black;
   border-right: 2px solid black;
-  /*background-color:#BDB76B;*/
   background-image: linear-gradient(#d0e457, #e6dd10);
 
 
@@ -111,7 +117,11 @@ a.buttonhaut{
 .titres2{
   text-align: right;
   font-size: small;
-    margin-right: 35px; 
+  font-size: 15px;
+  font-style: oblique;
+  font-family: cursive;
+  color: white;
+  margin-right: 35px;
   padding-top: 10px;
   padding-right: 10px;
 }
@@ -165,20 +175,18 @@ a.buttonhaut{
 
 #bloc3{
   z-index: 1;
-  bottom: 500px;
-  left: 540px;
+  bottom: 580px;
+  left: 520px;
   background-position: center;
   position: relative;
-  height: 420px;
-  width: 650px;
+  height: 500px;
+  width: 670px;
   background-color: rgb(135, 183, 218);
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 20px;
   border: pink solid 4px;
   float: left;
-  text-align: justify;
-  text-align-last: right;
   opacity: 0.2;
 }
 .clear{
@@ -202,13 +210,17 @@ a.buttonhaut{
   padding-right: 20px;
   padding-top: 20px;
   position: relative;
-  bottom: 915px;
+  bottom: 1090px;
   height: 5px;
-  width: 650px;
-  z-index: 4;
-  left: 550px;
+  width: 670px;
+  left: 525px;
   z-index: 2;
   color: white;
+
+}
+.fontnew{
+  font-family: bkobiii, cursive, white;
+  font-size: 25px;
 }
 /*element qui composent les boutons icone liens vers reseaux sociaux et le mail*/
 .social{
